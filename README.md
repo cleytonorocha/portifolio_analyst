@@ -1,4 +1,4 @@
-# portifolio_analist
+# portifolio_analyst
 
 ## Project setup
 ```
