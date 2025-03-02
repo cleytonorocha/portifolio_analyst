@@ -3,26 +3,28 @@
     <nav-bar />
     <section class="container text-center text-md-start">
       <apresentation-view-vue />
+      <hr>
+      <skills-view-vue />
+      <hr>
     </section>
   </div>
 </template>
 
 <script>
-import NavBar from "@/layouts/NavBar.vue";
-import ApresentationViewVue from "./views/ApresentationView.vue";
 export default {
   name: "App",
 
   components: {
-    NavBar,
-    ApresentationViewVue,
+    NavBar: () => import("@/layouts/NavBar.vue"),
+    ApresentationViewVue: () => import("@/views/ApresentationView.vue"),
+    SkillsViewVue: () => import("@/views/SkillsView.vue"),
   },
 };
 </script>
 
 <style>
 * {
-  font-family: "Hebbo", sans-serif;
+  font-family: "Hebbo";
 }
 section {
   padding: 80px 0;
