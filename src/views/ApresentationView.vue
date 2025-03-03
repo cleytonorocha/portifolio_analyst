@@ -10,7 +10,7 @@
         <div class="col-xl-6 order-xl-1">
           <div class="container">
             <h1 class="fw-bold display-4">
-              Hi, I am <span class="text-primary">Cleyton</span>, Spreadsheet
+              Hi, I am <span style="color: #07218a;">Cleyton</span>, Spreadsheet
               Specialist
             </h1>
             <p class="text-sm-start fs-5 mt-5">

@@ -6,6 +6,8 @@
       <hr>
       <skills-view-vue />
       <hr>
+      <work-view-vue />
+      <hr>
     </section>
   </div>
 </template>
@@ -18,6 +20,7 @@ export default {
     NavBar: () => import("@/layouts/NavBar.vue"),
     ApresentationViewVue: () => import("@/views/ApresentationView.vue"),
     SkillsViewVue: () => import("@/views/SkillsView.vue"),
+    WorkViewVue: () => import("@/views/WorkView.vue")
   },
 };
 </script>

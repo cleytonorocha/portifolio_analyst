@@ -1,6 +1,6 @@
 <template>
   <div class="container my-5">
-    <div class="row align-items-center justify-content-around py-5">
+    <div class="row align-items-center justify-content-around pb-5">
       <!-- Icons (Left on Desktop, Top on Mobile) -->
       <div
         :class="textPosition === 'left' ? 'col-md-5 order-md-2' : 'col-md-5'"
