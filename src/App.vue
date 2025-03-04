@@ -42,6 +42,7 @@ export default {
 <style>
 * {
   font-family: "Hebbo";
+  box-sizing: border-box;
 }
 section {
   padding: 80px 0;

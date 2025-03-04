@@ -77,7 +77,7 @@ export default {
             heading: "Web Development",
             experience: "1 year of experience",
             description:
-            "Experience with web technologies (HTML, CSS, JavaScript), backend development (Java, Spring), and Linux environments. Skilled in building responsive and interactive web applications, developing RESTful APIs, and managing server-side operations. Proficient in using version control systems and collaborating with cross-functional teams to deliver high-quality software solutions.",
+            "Experience with HTML, CSS, JavaScript, Java, Spring, and Linux. Skilled in building responsive web applications, developing RESTful APIs, and managing server-side operations. Proficient in version control and team collaboration.",
         },
     };
   },
