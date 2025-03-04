@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav-bar />
-    <section class="container text-center text-md-start">
+    <section class="container text-center text-md-start ">
       <apresentation-view-vue />
       <hr>
       <skills-view-vue />
@@ -10,6 +10,7 @@
       <hr>
       <contact-view-vue />
     </section>
+    <side-bar />
   </div>
 </template>
 
@@ -23,6 +24,7 @@ export default {
     SkillsViewVue: () => import("@/views/SkillsView.vue"),
     WorkViewVue: () => import("@/views/WorkView.vue"),
     ContactViewVue: () => import("@/views/ContactView.vue"),
+    SideBar: () => import("@/layouts/SideBar.vue"),
   },
 };
 </script>
