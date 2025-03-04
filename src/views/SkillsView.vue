@@ -40,7 +40,6 @@
       :description="development.description"
       data-aos="fade-left" data-aos-duration="1200" 
     />
-    <hr class="d-block d-md-none" />
   </section>
 </template>
 
