@@ -13,6 +13,7 @@
         :heading="google.heading"
         :experience="google.experience"
         :description="google.description"
+        data-aos="fade-left" data-aos-duration="1200" 
       />
       <hr class="d-block d-md-none" />
       <experience-card
@@ -25,6 +26,7 @@
         :description="office.description"
         :icon_size="office.icon_size"
         :disposition="office.disposition"
+        data-aos="fade-right" data-aos-duration="1200" 
       />
     </div>
     <hr class="d-block d-md-none" />
@@ -36,6 +38,7 @@
       :heading="development.heading"
       :experience="development.experience"
       :description="development.description"
+      data-aos="fade-left" data-aos-duration="1200" 
     />
     <hr class="d-block d-md-none" />
   </section>

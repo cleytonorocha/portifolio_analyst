@@ -7,6 +7,7 @@
                 :key="index"
                 :project="project"
                 :imagem="project.imageSrc"
+                data-aos="fade-right" data-aos-duration="1200"
             />
         </div>
     </section>

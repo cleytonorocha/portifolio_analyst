@@ -10,7 +10,7 @@
         </div>
         <div class="col-lg-7 col-12 mt-lg-0 mt-3 px-4">
           <h2 class="fw-bold text-dark fs-3">{{ project.title }}</h2>
-          <div class="mb-3">
+          <div class="d-flex justify-content-between justify-content-sm-start mb-3">
             <span class="badge fs-5 px-3 py-2 me-3">{{ project.year }}</span>
             <span class="text-muted fs-4">{{ project.category }}</span>
           </div>

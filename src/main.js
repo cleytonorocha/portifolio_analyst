@@ -5,8 +5,10 @@ import store from './store'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-
+AOS.init();
 
 Vue.config.productionTip = false
 

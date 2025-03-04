@@ -1,18 +1,28 @@
 <template>
   <div>
     <nav-bar />
-    <section class="container text-center text-md-start ">
-      <apresentation-view-vue />
-      <hr>
+
+    <section id="home" class="container text-center text-md-start py-0">
+      <apresentation-view-vue
+        style="min-height: 100vh"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      />
+
+      <hr id="skills" />
       <skills-view-vue />
-      <hr>
+
+      <hr id="works" />
       <work-view-vue />
-      <hr>
-      <contact-view-vue />
+
+      <hr id="contact" />
+      <contact-view-vue data-aos="zoom-in" data-aos-duration="1200" />
+
+      <footer-layout data-aos="fade-up" />
     </section>
-    <side-bar />
   </div>
 </template>
+
 
 <script>
 export default {
@@ -24,7 +34,7 @@ export default {
     SkillsViewVue: () => import("@/views/SkillsView.vue"),
     WorkViewVue: () => import("@/views/WorkView.vue"),
     ContactViewVue: () => import("@/views/ContactView.vue"),
-    SideBar: () => import("@/layouts/SideBar.vue"),
+    FooterLayout: () => import("@/layouts/FooterLayout.vue")
   },
 };
 </script>

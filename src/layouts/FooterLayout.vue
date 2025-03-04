@@ -11,13 +11,13 @@
 
 <script>
 export default {
-    name: "SideBar",
+    name: "FooterLayout",
     data() {
         return {
             links: [
-                { href: "https://wa.me/yourphonenumber", icon: "fab fa-whatsapp" },
-                { href: "mailto:youremail@example.com", icon: "fas fa-envelope" },
-                { href: "https://t.me/yourusername", icon: "fab fa-telegram" }
+                { href: "https://wa.me/5531996709760?text=I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20further.", icon: "fab fa-whatsapp" },
+                { href: "mailto:dev@cleytonorocha.com.br", icon: "fas fa-envelope" },
+                { href: "https://t.me/cleytonorocha?start", icon: "fab fa-telegram" }
             ]
         }
     }

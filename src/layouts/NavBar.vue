@@ -1,11 +1,12 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid px-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid px-lg-5">
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>

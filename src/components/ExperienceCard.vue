@@ -20,6 +20,7 @@
                     <img
                       :src="require(`@/assets/logos/${diretory}/${image}.svg`)"
                       :width="icon_size"
+                      
                     />
                   </div>
                 </div>
@@ -127,6 +128,9 @@ export default {
 
 .border-md-start {
   border-left: none;
+}
+img:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
