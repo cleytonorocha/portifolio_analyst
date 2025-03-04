@@ -45,7 +45,7 @@ export default {
                 {
                     title: "Fitness Tracker App",
                     year: "2021",
-                    category: "Mobile App",
+                    category: "Mobile",
                     description:
                         "A mobile application that helps users track their fitness activities, set goals, and monitor progress.",
                     imageSrc: "img3",
