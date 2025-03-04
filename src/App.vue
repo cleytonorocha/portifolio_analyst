@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow: hidden;">
     <nav-bar />
 
     <section id="home" class="container text-center text-md-start py-0">
